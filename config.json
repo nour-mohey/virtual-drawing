@@ -1,0 +1,23 @@
+{
+    "gesture": {
+        "sensitivity": 0.5,
+        "pinch_threshold": 30,
+        "fist_threshold": 50,
+        "hand_size_normalization": true,
+        "require_consistent_gestures": 3
+    },
+    "drawing": {
+        "default_brush_size": 8,
+        "smooth_strokes": true,
+        "pressure_sensitivity": false,
+        "auto_save_interval": 300,
+        "max_undo_steps": 50
+    },
+    "ui": {
+        "theme": "dark",
+        "show_fps": true,
+        "show_gesture_hints": true,
+        "canvas_width": 1280,
+        "canvas_height": 720
+    }
+}

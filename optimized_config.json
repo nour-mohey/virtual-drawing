@@ -1,0 +1,33 @@
+{
+    "gesture": {
+        "sensitivity": 0.7,
+        "pinch_threshold": 25.0,
+        "fist_threshold": 40.0,
+        "hand_size_normalization": true,
+        "require_consistent_gestures": 3,
+        "min_confidence": 0.65
+    },
+    "drawing": {
+        "default_brush_size": 8,
+        "smooth_strokes": true,
+        "pressure_sensitivity": false,
+        "auto_save_interval": 300,
+        "max_undo_steps": 100,
+        "brush_smoothing": 0.3
+    },
+    "ui": {
+        "theme": "dark",
+        "show_fps": true,
+        "show_gesture_hints": true,
+        "canvas_width": 1280,
+        "canvas_height": 720,
+        "grid_enabled": false,
+        "grid_size": 50
+    },
+    "tracking": {
+        "min_detection_confidence": 0.7,
+        "min_tracking_confidence": 0.7,
+        "smoothing_buffer_size": 5,
+        "enable_background_subtraction": true
+    }
+}
